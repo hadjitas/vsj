@@ -1,4 +1,3 @@
-<script>
 //<![CDATA[
 function getQueryParam(param) {
 var result =  window.location.search.match(new RegExp("(\\?|&)" + param + "(\\[\\])?=([^&]*)")); return result ? result[3] : false;}
@@ -8,4 +7,3 @@ var player = new Clappr.Player({height: "100%", width: "100%", plugins: {'core':
 player.load({source: topVideo, mimeType: 'application/x-mpegURL'});
 player.play();
 //]]>
-</script>
